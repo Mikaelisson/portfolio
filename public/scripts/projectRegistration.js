@@ -6,11 +6,6 @@ let projects = [
     description: "Página de apresentação da empresa com depoimentos de influencers da moda. <br><br> Com suporte para Mobile.",
     img: "./assets/projects_images/shop2gether.png",
     link: "./sites/landingpage_icommgroup/index.html",
-  },  {
-    title: "Relógio automático",
-    description: "Relógio com imagens satisfatórias a cada momento do dia. <br><br> Com suporte para Mobile.",
-    img: "./assets/projects_images/relogio.png",
-    link: "./sites/relogio/index.html",
   },{
     title: "Jogo da Memória",
     description: "Jogo da Memória com as tecnologias usadas no curso do Programador BR. <br><br> Sem suporte para mobile.",
