@@ -16,14 +16,14 @@ let skills = [
         skill: 'JavaScript',
         level: '70%',
     },{
+        skill: 'React.JS',
+        level: '40%',
+    },{
         skill: 'Bootstrap',
         level: '10%',
     },{
         skill: 'Express.js',
         level: '45%',
-    },{
-        skill: 'JQuery',
-        level: '20%',
     },{
         skill: 'Firebase',
         level: '20%',
