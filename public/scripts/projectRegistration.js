@@ -6,7 +6,7 @@ let projects = [
     description: "Página de apresentação da empresa com depoimentos de influencers da moda. <br><br> Com suporte para Mobile.",
     img: "./assets/projects_images/shop2gether.png",
     link: "./sites/landingpage_ICOMM_Group/index.html",
-  },{
+  },  {
     title: "Relógio automático",
     description: "Relógio com imagens satisfatórias a cada momento do dia. <br><br> Com suporte para Mobile.",
     img: "./assets/projects_images/relogio.png",
