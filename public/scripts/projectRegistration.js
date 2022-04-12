@@ -2,6 +2,11 @@
 
 let projects = [
   {
+    title: "Relógio Automático",
+    description: "Relógico automático que apresenta belas imagens a cada momento do dia. <br><br> Com suporte para Mobile.",
+    img: "./assets/projects_images/relogio.png",
+    link: "./sites/relogio/index.html",
+  },{
     title: "Landingpage Icomm Group",
     description: "Página de apresentação da empresa com depoimentos de influencers da moda. <br><br> Com suporte para Mobile.",
     img: "./assets/projects_images/shop2gether.png",
