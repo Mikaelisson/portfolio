@@ -8,22 +8,25 @@ document.addEventListener('DOMContentLoaded', ()=>{
 let skills = [
     {
         skill: 'HTML',
-        level: '85%',
+        level: '90%',
     },{
         skill: 'CSS',
-        level: '85%',
+        level: '90%',
     },{
-        skill: 'JavaScript',
-        level: '70%',
+        skill: 'Javascript',
+        level: '75%',
     },{
         skill: 'React.JS',
-        level: '40%',
+        level: '50%',
     },{
         skill: 'Bootstrap',
-        level: '10%',
+        level: '50%',
     },{
         skill: 'Express.js',
         level: '45%',
+    },{
+        skill: 'MongoDB',
+        level: '50%',
     },{
         skill: 'Firebase',
         level: '20%',
