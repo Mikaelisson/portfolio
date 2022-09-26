@@ -1,0 +1,332 @@
+@media screen and (min-width: 2560px){
+    /* sidebar */
+    .sidebar {
+        grid-template: 500px auto 150px/ 100%;
+    }
+
+    /* identification */
+    .identification {
+        height: 100%;
+    }
+    
+    .identification img {
+        width: 310px;
+        border: var(--color-two) solid 4px;
+    }
+
+    .identification h1 {
+        font-size: 3.5rem;
+        margin-top: 10px;
+    }
+
+    .identification p {
+        font-size: 2.5rem;
+        margin-top: 5px;
+    }
+
+    /* skills */
+    .skills{
+        padding: 50px;
+    }
+
+    .skills h1 {
+        font-size: 4.5rem;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .skill p {
+        font-size: 3rem;
+        margin: 25px 0;
+    }
+
+    .skill-level {
+        height: 10px;
+    }
+
+    .skill-level span {
+        height: 10px;
+    }
+    
+    /* background-banner */
+    .background-banner{
+        background-image: url('../../assets/images/montanha2.jpg');
+        padding: 80px;
+    }
+
+    .background-banner h1{
+        font-size: 12.5rem;
+    }
+
+    .background-banner button {
+        font-size: 3rem;
+        font-weight: 600;
+        border: var(--color-tree) solid 6px;
+        padding: 40px;
+        margin-top: 30px;
+    }
+
+    .background-banner button:hover{
+        border-radius: 80px;
+    }
+
+    /* formation */
+    .formation{
+        width: 550px;
+        padding: 20px;
+        border-radius: 20px;    border-bottom: var(--color-tree) solid 6px;
+        border-top: var(--color-tree) solid 6px;
+        border-left: var(--color-tree) solid 6px;
+        box-shadow: var(--color-two) -18px 18px;
+    }
+
+    .formation h1 {
+        color: var(--text-one);
+        font-size: 3rem;
+    }
+
+    .formation p {
+        font-size: 2rem;
+        color: var(--text-two);
+        margin: 4px 0;
+    }
+
+    .formation span {
+        width: 6px;
+    }
+
+    /* social-media */
+    .social-media {
+        width: 120px;
+        padding: 20px;
+        border-radius: 20px;
+        border: var(--color-tree) solid 3px;
+        box-shadow: var(--color-tree) 40px 10px;
+        right: 0;
+    }
+
+    .social-media a {
+        width: 100%;
+        text-decoration: none;
+        display: inline-block;
+        margin: 6px 0;
+    }
+
+
+
+    /* container-projects */
+    .container-projects h1{
+        font-size: 6.5rem;
+    }
+
+    /* project */
+    .project {
+        padding: 25px;
+        border-radius: 40px;
+        border: var(--color-tree) solid 6px;
+    }
+
+    .project:hover {
+        box-shadow: var(--color-two) -18px 18px;
+        padding: 40px;
+    }
+
+    .project-description h1{
+        font-size: 4rem;
+    }
+
+    .project-description p{
+        font-size: 2.8rem;
+    }
+
+    .project-description a{
+        font-size: 3rem;
+        padding: 25px;
+        border: var(--color-tree) solid 4px;
+    }
+
+    /* credits */
+    .credits{
+        height: 300px;
+    }
+
+    .credits h1 {
+        font-size: 3rem;
+        color: var(--text-two);
+    }
+
+    /* closed */
+    .closed {
+        padding: 30px;
+    }
+
+    label {
+        cursor: pointer;
+        position: relative;
+        display: block;
+        height: 100px;
+        width: 118px;
+    }
+
+    label span {
+        height: 10px;
+    }
+
+    #checkbox-menu + label span:nth-child(1) {
+        top: 20px;
+    }
+
+    #checkbox-menu + label span:nth-child(2) {
+        top: 50px;
+    }
+
+    #checkbox-menu + label span:nth-child(3) {
+        top: 80px;
+    }
+
+    #checkbox-menu:checked + label span:nth-child(1) {
+        top: 50px;
+    }
+
+    #checkbox-menu:checked + label span:nth-child(3) {
+        top: 50px;
+    }
+}
+
+@media screen and (max-width: 1366px){
+    /* background-banner */
+    .background-banner h1{
+        font-size: 7rem;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    /* background-banner */
+    .background-banner{
+        background-position: bottom;
+        background-size: 120%;
+    }
+
+    .background-banner h1{
+        font-size: 7rem;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    /* background-banner */
+    .background-banner{
+        background-position: bottom;
+        background-size: cover;
+    }
+
+    .background-banner h1{
+        font-size: 6rem;
+    }
+}
+
+@media screen and (max-width: 950px){
+    /* background-banner */
+    .background-banner{
+        background-image: url('../../assets/images/montanha2.jpg');
+        background-position: right;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    /* menu */
+    header{
+        width: 90%;
+        height: 100vh;
+        left: -90%;
+    }
+
+    .identification{
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .skills{
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .sidebar > .credits{
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
+
+    /* background-banne */
+    .background-banner{
+                background-image: url('../../assets/images/montanha.jpg');
+    }
+
+    /* texto do background banner */    
+    .background-banner h1{
+        font-size: 4rem;
+    }
+
+    /* additional */
+    .additional{
+        justify-content: space-evenly;
+    }
+
+    /* project */
+    .project{
+        grid-template: auto auto/ auto;
+        text-align: center;
+    }
+
+    .project img{
+        width: 100%;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .project-description{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .project-description h1{
+        font-size: 1.2rem;
+    }
+
+    .project-description p{
+        font-size: 1rem;
+    }
+
+    .project-description a{
+        position: static;
+        display: inline-block;
+        transform: none;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    /* background-banner */
+    .background-banner{
+        background-position: right;
+    }
+}
+
+@media screen and (max-width: 450px){
+    /* background-banner */
+    .background-banner{
+        background-position: right;
+    }
+}
+
+@media screen and (max-width: 280px){
+    /* background-banner */
+    .background-banner{
+        padding: 25px;
+        background-position: center right;
+    }
+
+    .background-banner h1{
+        font-size: 2rem;
+    }
+}

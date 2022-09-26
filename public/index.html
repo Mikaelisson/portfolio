@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/media-query/smallscreen.css" />
+    <title>Currículo</title>
+  </head>
+  <body>
+    <div class="container-principal">
+      <header class="sidebar-container">
+        <div class="sidebar">
+          <section class="identification">
+            <img
+              src="./assets/images/mikaelisson-redu.png"
+              alt="Foto de Perfil"
+            />
+            <h1>Mikaelisson Gesuino</h1>
+            <p>Front-end Developer</p>
+          </section>
+          <!--identification-->
+          <section class="skills">
+            <h1>Habilidades</h1>
+          </section>
+          <!--skills-->
+          <div class="credits">
+            <h1>Developed By:<br />&lt;Mikaelisson&gt;</h1>
+          </div>
+          <!--credits-->
+        </div>
+        <!--sidebar-->
+
+        <section class="closed">
+          <input type="checkbox" id="checkbox-menu" />
+
+          <label for="checkbox-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </section>
+        <!--closed-->
+      </header>
+
+      <main>
+        <div class="container">
+          <section class="banner">
+            <div class="background-banner">
+              <h1>Sejam Bem Vindos ao Meu Espaço!</h1>
+                <a
+                  href="./assets/download/MIKAELISSON DO NASCIMENTO GESUINO.pdf"
+                  download="MIKAELISSON DO NASCIMENTO GESUINO.pdf"
+                  type="applicantion/pdf"
+                  target="_blank"
+                  >BAIXE MEU CV</a
+                >
+            </div>
+            <!--background-banner-->
+          </section>
+          <!--banner-->
+          <section class="additional"></section>
+          <!--additional-->
+          <section class="social-media">
+            <a href="https://github.com/Mikaelisson" target="_blank">
+              <img src="./assets/images/github.png" alt="ícone github" />
+            </a>
+            <a href="https://www.linkedin.com/in/mikaelisson/" target="_blank">
+              <img src="./assets/images/linkedin.png" alt="ícone linkedin" />
+            </a>
+            <a href="mailto:mikaelissongesuino@gmail.com">
+              <img src="./assets/images/gmail.png" alt="ícone gmail" />
+            </a>
+          </section>
+          <!--social-media-->
+          <section class="container-projects">
+            <h1>Projetos</h1>
+          </section>
+          <!--container-projects-->
+        </div>
+        <!--container-->
+      </main>
+
+      <aside></aside>
+
+      <footer>
+        <div class="credits">
+          <h1>Developed By:<br />&lt;Mikaelisson&gt;</h1>
+        </div>
+        <!--credits-->
+      </footer>
+    </div>
+    <!--container-principal-->
+
+    <script src="./scripts/createSkills.js"></script>
+    <script src="./scripts/createAdditionalInformation.js"></script>
+    <script src="./scripts/projectRegistration.js"></script>
+    <script src="./scripts/createContainerProjects.js"></script>
+    <script src="./scripts/hiddenOptions.js"></script>
+  </body>
+</html>
