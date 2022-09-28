@@ -14,6 +14,13 @@ let projects = [
     link: "https://sistema-gerenciador-usuarios.herokuapp.com",
   },
   {
+    title: "Todo List",
+    description:
+      "Lista de tarefas online para organizar melhor o seu dia. <br><br> Com suporte para Mobile.",
+    img: "./assets/projects_images/todo_list.png",
+    link: "https://mikaelisson.github.io/Todo-List-React/",
+  },
+  {
     title: "Relógio Automático",
     description:
       "Relógico automático que apresenta belas imagens a cada momento do dia. <br><br> Com suporte para Mobile.",
