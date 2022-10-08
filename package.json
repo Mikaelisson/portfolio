@@ -1,5 +1,4 @@
 {
-  "homepage": "https://mikaelisson.github.io/portfolio/public/",
   "name": "portfolio",
   "version": "1.0.0",
   "main": "index.js",
@@ -15,7 +14,7 @@
   "bugs": {
     "url": "https://github.com/Mikaelisson/portifolio/issues"
   },
-  "homepage": "https://github.com/Mikaelisson/portifolio#readme",
+  "homepage": "https://mikaelisson.github.io/portfolio/public/",
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.3"
