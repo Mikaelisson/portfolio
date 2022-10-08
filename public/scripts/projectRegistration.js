@@ -1,10 +1,10 @@
 let projects = [
   {
-    title: "CRUD Javascript de cadastro e faturamento de clientes",
+    title: "Aplicação de Meteorológica",
     description:
-      "Sistema de cadastro e lançamento de faturamento de clientes. <br><br> Com suporte para Mobile.",
-    img: "./assets/projects_images/crud_javascript_sistema_faturamento.png",
-    link: "https://mikaelisson.github.io/CRUD-Javascript-Vanilla/",
+      "Informando a cidade na qual deseja saber informações, será retornado dados meteorológicos. <br><br> Com suporte para Mobile.",
+    img: "./assets/projects_images/weather_app.png",
+    link: "https://mikaelisson.github.io/Aplicacao-de-Clima-com-OpenWeather-API/",
   },
   {
     title: "Sistema de Gerenciamento de Usuários",
@@ -12,6 +12,13 @@ let projects = [
       "Sistema de gerenciamento de usuários podendo atribuir permissões aos indivíduos pertencentes à sua conta, sendo recomendável que você atribua a função de Administrador de Sistema da sua conta a mais de um usuário, para o caso do administrador principal não estar disponível. <br><br> Para testar utilize usuário ADMINISTRADOR e senha 123456 <br><br> Com suporte para Mobile.",
     img: "./assets/projects_images/sistema_gerenciamento_usuarios.png",
     link: "https://sistema-gerenciador-usuarios.herokuapp.com",
+  },
+  {
+    title: "CRUD Javascript de cadastro e faturamento de clientes",
+    description:
+      "Sistema de cadastro e lançamento de faturamento de clientes. <br><br> Com suporte para Mobile.",
+    img: "./assets/projects_images/crud_javascript_sistema_faturamento.png",
+    link: "https://mikaelisson.github.io/CRUD-Javascript-Vanilla/",
   },
   {
     title: "Todo List",
