@@ -11,7 +11,7 @@ let projects = [
     description:
       "Sistema de gerenciamento de usuários podendo atribuir permissões aos indivíduos pertencentes à sua conta, sendo recomendável que você atribua a função de Administrador de Sistema da sua conta a mais de um usuário, para o caso do administrador principal não estar disponível. <br><br> Para testar utilize usuário ADMINISTRADOR e senha 123456 <br><br> Com suporte para Mobile.",
     img: "./assets/projects_images/sistema_gerenciamento_usuarios.png",
-    link: "https://sistema-gerenciador-usuarios.herokuapp.com",
+    link: "https://gerenciamento-de-usuarios.onrender.com",
   },
   {
     title: "CRUD Javascript de cadastro e faturamento de clientes",
